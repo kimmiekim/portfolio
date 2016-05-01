@@ -1,0 +1,282 @@
+html{
+  font-family: sans-serif;
+}
+body{
+  // background-image:
+  // linear-gradient(white, #e1e8f0);
+
+}
+.top_box{
+  // height: 370px;
+  // border: 2px solid #808080;
+  // margin-top: 30px;
+  // background-image: url("mac_grey.jpeg");
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+}
+
+.my_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 500px;
+  margin-right: -300px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  color: black;
+}
+
+.my_info h1{
+  margin-top: -10px;
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+.my_info a,
+a:link,
+a:hover,
+a:visited,
+a:active{
+  color: black;
+  text-decoration: none;
+}
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: -300px;
+  padding-bottom: 70px;
+}
+.contact_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid black;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin-top: -50px;
+  color: black;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.intro{
+
+  // height: 400px;
+  // border: 2px solid #808080;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+  // background-image:
+  // linear-gradient(white, #212121);
+  background-image: url("mac_grey.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.intro b{
+  color: #e62739;
+}
+.one {
+  padding: 5px 20px;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 25px;
+  background-color: rgba(255,255,255,0.5);
+  // margin-top: -20px;
+
+}
+
+.two {
+  padding: 10px;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.5);
+  }
+
+#personal_intro{
+  color: black;
+}
+.three {
+  background-color: rgba(255,255,255,0.5);
+  // // padding: 20px;
+  color: black;
+  // letter-spacing: 3px;
+  font-size: 25px;
+  padding: 5px 20px;
+  // background-image: url('port_profile_pic.jpg');
+  // background-size: 400px;
+  // background-repeat: no-repeat;
+  // width: 100%;
+  // height: 100%;
+}
+// .three a{
+//   font-weight: bold;
+//   color: black;
+// }
+// .port_pic{
+//   width: 350px;
+//   height: 350px;
+//   padding: 20px;
+//
+// }
+
+.languages{
+  font-family: sans-serif;
+  color: white;
+  border: 2px dotted #808080;
+  margin-top: 5%;
+  height: 250px;
+}
+
+.languages h2{
+  font-family: sans-serif;
+  color: #808080;
+  text-align: center;
+}
+
+.languages_grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.language_list{
+  border: 3px solid #808080;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  line-height: 130px;
+  background-color: #808080;
+
+}
+.skills h2{
+  font-family: sans-serif;
+  color: #6ed3cf;
+  text-align: center;
+  overflow: hidden;
+}
+.skills{
+  background-color: #e3e3e3;
+  font-family: sans-serif;
+  color: white;
+  border: 2px dotted #808080;
+  margin-top: 5%;
+  height: 300px;
+}
+.skills_grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // font-family: sans-serif;
+
+}
+
+.skill_list{
+  border: 3px solid #6ed3cf;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  background-color: #6ed3cf;
+  // margin-bottom: 20px;
+}
+
+.projects{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.projects h1{
+  font-size: 25px;
+  color: #808080;
+  text-align: center;
+}
+// .project_list{
+//   display: flex;
+//   flex-direction: row;
+//   color: #808080;
+// }
+.crm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.crm_description{
+  color: #808080;
+  border: 2px solid #808080;
+  padding: 50px;
+}
+.crm_picture{
+
+  background-image: url("crm.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 280px;
+}
+
+.seatyourself{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px;
+
+}
+.seatyourself_pic{
+  background-image: url("seatyourself.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height:280px;
+  margin: 10px;
+
+}
+.seatyourself_description{
+  color: #808080;
+  border: 2px solid #808080;
+  padding: 50px;
+  margin: 10px;
+}
+
+
+.jump_circle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.circle{
+  position: absolute;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: rgba(230, 39, 57, 0.63);
+
+  // background-color: rgba(145, 252, 204, 0.82);
+}
+//
+// #first_circle{
+//   background-color: rgba(126, 246, 28, 0.74);
+// }
+//
+// #second_circle{
+//   background-color: rgba(247, 83, 239, 0.82);
+// }
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
