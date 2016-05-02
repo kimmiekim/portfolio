@@ -6,14 +6,35 @@ body{
   // linear-gradient(white, #e1e8f0);
 
 }
-.top_box{
-  // height: 370px;
-  // border: 2px solid #808080;
-  // margin-top: 30px;
-  // background-image: url("mac_grey.jpeg");
-  // background-size: 100%;
-  // background-repeat: no-repeat;
+
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(192,192,192,0.5);
+  margin-top: -10px;
+  position: fixed;
+
 }
+
+.nav li{
+  letter-spacing: 10px;
+  margin: 20px;
+  list-style-type: none;
+  margin-right: 100px;
+
+}
+
+// .top_box{
+//   height: 370px;
+//   border: 2px solid #808080;
+//   margin-top: 30px;
+//   background-image: url("mac_grey.jpeg");
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+// }
 
 .my_info{
   display: flex;
@@ -73,13 +94,16 @@ a:active{
   flex-direction: column;
   justify-content: center;
   color: white;
+  font-size: 20px;
   font-family: sans-serif;
   // background-image:
   // linear-gradient(white, #212121);
   background-image: url("mac_grey.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 700px;
+  // height: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .intro b{
@@ -89,7 +113,6 @@ a:active{
   padding: 5px 20px;
   color: black;
   letter-spacing: 3px;
-  font-size: 25px;
   background-color: rgba(255,255,255,0.5);
   // margin-top: -20px;
 
@@ -99,7 +122,6 @@ a:active{
   padding: 10px;
   color: white;
   letter-spacing: 3px;
-  font-size: 25px;
   background-color: rgba(0,0,0,0.5);
   }
 
@@ -111,7 +133,6 @@ a:active{
   // // padding: 20px;
   color: black;
   // letter-spacing: 3px;
-  font-size: 25px;
   padding: 5px 20px;
   // background-image: url('port_profile_pic.jpg');
   // background-size: 400px;
@@ -135,13 +156,15 @@ a:active{
   color: white;
   border: 2px dotted #808080;
   margin-top: 5%;
-  height: 250px;
+  // height: 250px;
+  padding: 20px;
 }
 
 .languages h2{
   font-family: sans-serif;
   color: #808080;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .languages_grid{
@@ -165,6 +188,7 @@ a:active{
   color: #6ed3cf;
   text-align: center;
   overflow: hidden;
+  letter-spacing: 5px;
 }
 .skills{
   background-color: #e3e3e3;
@@ -172,7 +196,8 @@ a:active{
   color: white;
   border: 2px dotted #808080;
   margin-top: 5%;
-  height: 300px;
+  // height: 300px;
+  padding: 20px;
 }
 .skills_grid{
   display: flex;
@@ -184,7 +209,7 @@ a:active{
 }
 
 .skill_list{
-  border: 3px solid #6ed3cf;
+  border: 2px solid #6ed3cf;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -205,54 +230,64 @@ a:active{
   font-size: 25px;
   color: #808080;
   text-align: center;
+  letter-spacing: 5px;
 }
 // .project_list{
 //   display: flex;
 //   flex-direction: row;
 //   color: #808080;
 // }
-.crm{
+.crm, .seatyourself{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
 }
-.crm_description{
+.project_description{
   color: #808080;
   border: 2px solid #808080;
   padding: 50px;
+  width: 500px;
 }
-.crm_picture{
+.project_picture{
 
-  background-image: url("crm.png");
   background-size: 100%;
   background-repeat: no-repeat;
   width: 500px;
   height: 280px;
 }
 
-.seatyourself{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 100px;
-
+.crm .project_picture {
+  background-image: url("crm.png");
 }
-.seatyourself_pic{
+
+.seatyourself .project_picture {
   background-image: url("seatyourself.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 500px;
-  height:280px;
-  margin: 10px;
 
 }
-.seatyourself_description{
-  color: #808080;
-  border: 2px solid #808080;
-  padding: 50px;
-  margin: 10px;
-}
+
+// .seatyourself{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   margin: 100px;
+//
+// }
+// .seatyourself_pic{
+//   background-image: url("crm.png");
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   width: 500px;
+//   height:280px;
+//   // margin: 10px;
+//
+// }
+// .seatyourself_description{
+//   color: #808080;
+//   border: 2px solid #808080;
+//   padding: 50px;
+//   margin: 10px;
+// }
 
 
 .jump_circle{
