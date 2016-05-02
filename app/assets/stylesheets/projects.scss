@@ -258,11 +258,11 @@ a:active{
 }
 
 .crm .project_picture {
-  background-image: url("crm.png");
+  background-image: image_path("crm.png");
 }
 
 .seatyourself .project_picture {
-  background-image: url("seatyourself.png");
+  background-image: image_path("seatyourself.png");
 
 }
 
