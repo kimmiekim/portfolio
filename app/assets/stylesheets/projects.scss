@@ -88,7 +88,7 @@ nav {
   font-family: sans-serif;
   letter-spacing: 5px;
   color: $black;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 
 }
 
@@ -97,6 +97,7 @@ nav {
   font-size: 50px;
   letter-spacing: 15px;
 }
+
 .my_info a,
 a:link,
 a:hover,
@@ -149,6 +150,10 @@ a:active{
   font-size: 1.1rem;
   font-family: sans-serif;
   letter-spacing: 3px;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .intro b{
@@ -279,13 +284,14 @@ a:active{
 
 .footer {
   background-color: $greyTrans;
-  color: $white;
+  color: $black;
   height: 50px;
+  font-size: 0.9rem;
 
   .footer_message,
   i {
     line-height: 50px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     display: flex;
     justify-content: flex-end;
   }
@@ -324,6 +330,10 @@ a:active{
 .jump_circle{
   display: none;
 }
+
+.footer {
+  display: none;
+}
 }
 
 @media screen and (max-width: 620px){
@@ -349,10 +359,16 @@ a:active{
   }
   .port_pic{
     background-image: none;
+    background-color: $greyTrans;
   }
 
   .intro{
     display: 100vw;
+  }
+
+
+  .footer {
+    display: none;
   }
 }
 
