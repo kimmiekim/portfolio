@@ -188,7 +188,7 @@ a:active{
 }
 
 .language_list, .skill_list {
-  width: 20vw;
+  width: 10vw;
 }
 
 .languages{
@@ -405,6 +405,9 @@ a:active{
      }
   }
 
+  .language_list, .skill_list {
+    width: 20vw;
+  }
 
   .footer {
     display: none;
