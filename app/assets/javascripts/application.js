@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require jquery.circliful.min.js
+//= require sonic.js
 //= require_tree .

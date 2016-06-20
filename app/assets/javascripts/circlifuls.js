@@ -65,7 +65,7 @@ $(window).on("scroll", function(){
       animationStep: 1.5,
       foregroundBorderWidth: 10,
       backgroundBorderWidth: 20,
-      text: "RubyOnRails",
+      text: "Rails",
       percent: 80,
       percentageTextSize: 0,
       foregroundColor: "#696969"
@@ -191,7 +191,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "Project Management",
+        text: "Management",
         percent: 85,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
@@ -202,7 +202,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "E-Commerce",
+        text: "ECommerce",
         percent: 90,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
