@@ -383,6 +383,9 @@ a:active{
   .my_info,
   .contact{
       width:100%;
+      a {
+        padding: 5%;
+      }
     }
   .nav {
       display: none;
@@ -391,10 +394,22 @@ a:active{
   #cross {
     display: block;
   }
-  .nav ul {
-    flex-direction: column;
-    width: 100%;
-    overflow: scroll;
+  .nav {
+    ul {
+      flex-direction: column;
+      width: 100%;
+      // padding: 5%;
+      overflow: scroll;
+      margin: 0;
+      margin-top: 10%;
+    }
+    li {
+      margin-bottom: 5%;
+    &:hover {
+      background-color: $medGrey;
+      width: 100%;
+    }
+    }
   }
   .port_pic{
     // background-image: none;
