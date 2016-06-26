@@ -37,11 +37,12 @@ nav {
   background-color: $greyTrans;
   width: 100%;
 
-  // justify-content: space-around;
+
 
    ul {
      display: flex;
      justify-content: flex-end;
+
    }
    li {
   // display: inline-flex;
@@ -58,6 +59,11 @@ nav {
 
   a {
     justify-content: flex-end;
+  }
+
+  a:hover {
+    border-bottom: 2px solid $black;
+    text-decoration: none;
   }
 
 }
@@ -146,7 +152,7 @@ a:active{
   // padding-top: 15rem;
 
   .intro{
-    margin-top: 150px;
+    // margin-top: 150px;
     padding-top: 50vh;
     padding-right: 35%;
     padding-left: 10%;
@@ -174,10 +180,10 @@ a:active{
 
 #greetings {
   width: 200px;
-  height: 200px;
-  max-height: 200px;
   margin-bottom: -500px;
   margin-left: 10%;
+  margin-top: 150px;
+  position: absolute;
 }
 
 .hello {
@@ -277,47 +283,41 @@ a:active{
 //   // margin-bottom: 20px;
 // }
 
-.projects{
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-}
-
-.projects h1{
-  font-size: 25px;
-  color: $medGrey;
-  text-align: center;
-  letter-spacing: 5px;
-}
-
-.crm, .seatyourself{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.sample_one {
+  display: inline-flex;
+  margin: 50px;
 
 }
-.project_description{
-  color: $medGrey;
-  border: 2px solid $medGrey;
-  padding: 50px;
-  width: 500px;
-}
-.project_picture{
-
+.project_pic {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 500px;
   height: 280px;
+  padding-top: 50%;
 }
 
-.crm .project_picture {
-  background-image: image-url("crm.png");
+.project_description {
+  width: 500px;
+  padding-left: 50px;
+  color: $medGrey;
 }
 
-.seatyourself .project_picture {
-  background-image: image-url("seatyourself.png");
+.project_links {
+  color: $medGrey;
+  font-size: 1rem;
+  margin-top: 50px;
+  padding-right: 50px;
+}
+ hr {
+   width: 70%;
+ }
 
+#we_robo_care {
+  background-image: image-url("we_robo_care.png");
+}
+
+#seatyourself {
+  background-image: image-url("seatyourself.png")
 }
 
 .footer {
@@ -440,31 +440,3 @@ a:active{
     display: none;
   }
 }
-
-
-
-
-// @media screen and (min-width: 460px){
-//   body{
-//     background-color: white;
-//     width: 100%;
-//   }
-//   .top-container{
-//     width: 60vw;
-//     margin-left: 40vw;
-//     margin-right: 0vw;
-//   }
-//   .nav ul{
-//     display: inline-flex;
-//     flex-direction: row;
-//     justify-content: flex-end;
-//     background-color: rgba(192,192,192,0.5);
-//     width: 100%;
-//   }
-//   .nav li{
-//     width:10%;
-//     display: inline;
-//   }
-//   .nav {
-//     display: block;
-//   }
