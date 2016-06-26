@@ -13,7 +13,7 @@ $(document).on('ready', function(){
         $('#greetings .hello:nth-child(9)').delay(500).hide();
         curr = 1;
       }
-    }, 5000);
+    }, 2000);
   }
   roll();
 });
