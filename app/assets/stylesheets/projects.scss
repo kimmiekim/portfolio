@@ -287,15 +287,20 @@ a:active{
 // }
 
 .work_sample{
-  margin-top: 50px;
+  // margin-top: 50px;
   display: flex;
   flex-direction: column;
+  margin: 5vh 5vw 0vh 5vw;
+
   // justify-content: center;
   h2 {
     color: $medGrey;
   }
 }
 
+#project_header {
+  text-align: center;
+}
 .sample_one {
   display: inline-flex;
   justify-content: center;
@@ -380,11 +385,8 @@ a:active{
 
   // background-color: rgba(145, 252, 204, 0.82);
 }
-//
 
-// Place all the styles related to the projects controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 #hamburger,
 #cross {
   display: none;
@@ -395,6 +397,7 @@ a:active{
   .nav{
     top: 10%;
     right: 10%;
+
   }
   .jump_circle{
     display: none;
@@ -403,11 +406,15 @@ a:active{
   .footer {
     display: none;
   }
+  .work_sample {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 670px){
   body{
     overflow-x: hidden;
+    // width: 100vw;
   }
   .my_info,
   .contact{
@@ -424,6 +431,7 @@ a:active{
     display: block;
   }
   .nav {
+    height: auto;
     ul {
       flex-direction: column;
       width: 100%;
@@ -431,6 +439,7 @@ a:active{
       overflow: scroll;
       margin: 0;
       margin-top: 10%;
+
     }
     li {
       margin-bottom: 5%;
@@ -465,6 +474,7 @@ a:active{
     width: 20vw;
   }
   .work_sample {
+    width: 70%;
     display: flex;
     justify-content: center;
   }
