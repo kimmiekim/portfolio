@@ -318,6 +318,7 @@ a:active{
   font-size: 1rem;
   margin-top: 50px;
   padding-right: 50px;
+  position: absolute;
 
   a{
     color: $medGrey;
@@ -333,6 +334,7 @@ a:active{
 }
  hr {
    width: 70%;
+   margin-top: 100px;
  }
 
 #we_robo_care {
@@ -348,6 +350,7 @@ a:active{
   color: $black;
   height: 50px;
   font-size: 0.9rem;
+  margin-top: 100px;
 
   .footer_message,
   i {
