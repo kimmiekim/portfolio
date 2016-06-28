@@ -288,6 +288,9 @@ a:active{
   display: flex;
   flex-direction: column;
   // justify-content: center;
+  h2 {
+    color: $medGrey;
+  }
 }
 
 .sample_one {
@@ -322,8 +325,10 @@ a:active{
   }
 
   a:hover {
-    background-color: $greyTrans;
     color: $black;
+    border-bottom: 2px solid $black;
+    font-size: 1.1rem;
+
   }
 }
  hr {
@@ -453,7 +458,10 @@ a:active{
   .language_list, .skill_list {
     width: 20vw;
   }
-
+  .work_sample {
+    display: flex;
+    justify-content: center;
+  }
   .sample_one {
     display: flex;
     flex-direction: column;
