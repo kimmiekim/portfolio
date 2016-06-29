@@ -418,7 +418,9 @@ a:active{
       width:100%;
       a {
         padding: 5%;
+        overflow-x: visible;
       }
+
     }
   .nav {
       display: none;
@@ -441,7 +443,6 @@ a:active{
     li {
       margin-bottom: 5%;
     &:hover {
-      background-color: $medGrey;
       width: 100%;
     }
     }
