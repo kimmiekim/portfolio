@@ -291,7 +291,6 @@ a:active{
   display: flex;
   flex-direction: column;
   margin: 5vh 5vw 0vh 5vw;
-
   // justify-content: center;
   h2 {
     color: $medGrey;
@@ -310,7 +309,7 @@ a:active{
 .project_pic {
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 500px;
+  width: 35vw;
   height: 280px;
   margin-top: 50px;
 }
@@ -406,9 +405,7 @@ a:active{
   .footer {
     display: none;
   }
-  .work_sample {
-    width: 100vw;
-  }
+
 }
 
 @media screen and (max-width: 670px){
@@ -474,15 +471,23 @@ a:active{
     width: 20vw;
   }
   .work_sample {
-    width: 70%;
+    // width: 70%;
     display: flex;
     justify-content: center;
+
   }
   .sample_one {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+    .project_pic {
+      width: 90vw;
+    }
+
+    .project_description {
+      width: 90vw;
+    }
   }
 
   .footer {
