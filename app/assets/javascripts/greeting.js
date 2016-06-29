@@ -6,14 +6,19 @@ $(document).on('ready', function(){
 
     setInterval(function(){
       //console.log('C:'++curr);
-      $('#greetings .hello').hide("slide", {direction: "up"}, 500);
+      $('#greetings .hello').hide();
       $('#greetings .hello:nth-child('+curr+')').delay(100).show("slide", {direction: "down"}, 500);
       curr++;
       if (curr == count+1){
-        $('#greetings .hello:nth-child(9)').delay(500).hide("slide", {direction: "up"}, 500);
+        $('#greetings .hello:nth-child(9)').delay(500).hide();
         curr = 1;
       }
     }, 2000);
   }
   roll();
 });
+
+
+
+
+// "slide", {direction: "down"}, 500
