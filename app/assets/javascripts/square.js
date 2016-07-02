@@ -1,4 +1,4 @@
-$(document).on('ready', function(){
+$(window).on('load', function(){
 
 var square = new Sonic({
     width: 100,

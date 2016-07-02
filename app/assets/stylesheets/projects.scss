@@ -312,6 +312,11 @@ a:active{
   width: 35vw;
   height: 280px;
   margin-top: 50px;
+
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+  transition-delay: 300ms;
 }
 
 .project_description {
@@ -346,10 +351,19 @@ a:active{
 
 #we_robo_care {
   background-image: image-url("we_robo_care.png");
+
+}
+
+#we_robo_care:hover {
+  transform: scale(1.2);
 }
 
 #seatyourself {
   background-image: image-url("seatyourself.png")
+}
+
+#seatyourself:hover {
+  transform: scale(1.2);
 }
 
 .footer {
