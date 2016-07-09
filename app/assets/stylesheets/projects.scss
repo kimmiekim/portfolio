@@ -163,7 +163,7 @@ a:active{
 }
 blockquote {
   // background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 10px solid $red;
   // margin: 10px;
   padding: 10px;
   letter-spacing: 3px;
@@ -211,6 +211,7 @@ blockquote {
     padding-top: 50vh;
     padding-right: 35%;
     padding-left: 10%;
+    width: 80%;
 
     color: $black;
     font-size: 1.1rem;
@@ -515,8 +516,7 @@ blockquote {
   .intro{
    text-align: left;
    padding: 5%;
-  //  padding-left: 10%;
-
+   padding-right: 0;
      h2 {
        margin-left: -50px;
        font-size: 0.8rem;
@@ -552,5 +552,13 @@ blockquote {
 
   footer {
     font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .intro p{
+    width: 80vw;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
