@@ -197,49 +197,59 @@ blockquote {
     vertical-align: -0.4em;
   }
 
-.port_pic{
-  // background-image: image-url("ErinKimPortfolio.jpg");
-  background-image: image-url("prof_pic_maybe.png");
-  background-repeat: no-repeat;
+.blurb{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+#port_pic{
+  background-image: image-url("prof_pic_copy.png");
   background-size: contain;
-  background-position: 75% 0;
+  background-repeat: no-repeat;
+  // background-position: 75% 0;
+  width: 50%;
+
+
+  }
 
   // padding-top: 15rem;
 
-  .intro{
-    // margin-top: 150px;
-    padding-top: 50vh;
-    padding-right: 35%;
-    padding-left: 10%;
-    width: 80%;
+.intro{
+  margin-top: 150px;
+  padding-top: 50vh;
+  // padding-right: 35%;
+  padding-left: 10%;
+  width: 50%;
 
-    color: $black;
-    font-size: 1.1rem;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-      a {
-        text-decoration: underline;
-      }
-       b{
-      color: $red;
-      letter-spacing: 2px;
+  color: $black;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+    a {
+      text-decoration: underline;
     }
+     b{
+    // color: $red;
+    letter-spacing: 2px;
+  }
 
-    h2 {
-      // animation: bobble 3s infinite;
-      letter-spacing: 7px;
-      // margin-top: -250px;
-    }
-
+  h2 {
+    // animation: bobble 3s infinite;
+    letter-spacing: 7px;
+    // margin-top: -250px;
   }
 }
 
 #greetings {
-  width: 200px;
+  width: 400px;
   margin-bottom: -500px;
   margin-left: 10%;
   margin-top: 150px;
   position: absolute;
+  color: $red;
+  font-size: 2.5rem;
 }
 
 .hello {
@@ -506,25 +516,7 @@ blockquote {
   }
   .ux_definition{
     margin-left: 5vw;
-  }
-  .port_pic{
-    // background-image: none;
-    background-color: $greyTrans;
-
-  }
-
-  .intro{
-   text-align: left;
-   padding: 5%;
-   padding-right: 0;
-     h2 {
-       margin-left: -50px;
-       font-size: 0.8rem;
-     }
-
-     p{
-       font-size: 0.8rem;
-     }
+    width: 40vw;
   }
 
   .language_list, .skill_list {
@@ -556,9 +548,9 @@ blockquote {
 }
 
 @media screen and (max-width: 1000px) {
-  .intro p{
+  #my_intro {
     width: 80vw;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 50px;
   }
+
 }
