@@ -170,7 +170,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "FlexBox",
+        text: "Github",
         percent: 99,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
@@ -180,7 +180,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "GitHub",
+        text: "UX/UI",
         percent: 99,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
@@ -191,7 +191,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "Management",
+        text: "Sketch",
         percent: 85,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
@@ -202,7 +202,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "ECommerce",
+        text: "Illustrator",
         percent: 90,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
@@ -224,7 +224,7 @@ $(window).on("scroll", function(){
         animationStep: 1.5,
         foregroundBorderWidth: 10,
         backgroundBorderWidth: 20,
-        text: "Team Work",
+        text: "Ecommerce",
         percent: 90,
         percentageTextSize: 0,
         foregroundColor: "rgba(230, 39, 57, 0.63)"
