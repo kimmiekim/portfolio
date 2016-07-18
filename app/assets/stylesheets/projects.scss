@@ -359,8 +359,7 @@ blockquote {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 35vw;
-  height: 280px;
-  margin-top: 50px;
+  height: 610px;
 
   transition-property: all;
   transition-duration: 300ms;
@@ -404,7 +403,9 @@ blockquote {
 }
 
 #we_robo_care:hover {
+  margin-top: 50px;
   transform: scale(1.2);
+
 }
 
 #seatyourself {
@@ -412,6 +413,7 @@ blockquote {
 }
 
 #seatyourself:hover {
+  margin-top: 50px;
   transform: scale(1.2);
 }
 
