@@ -18,7 +18,7 @@
 
 html, body {
   height: 100vh;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Inconsolata,sans-serif;
 }
 
 
@@ -40,6 +40,7 @@ nav {
 
 
 
+
    ul {
      display: flex;
      justify-content: flex-end;
@@ -50,11 +51,12 @@ nav {
   // justify-content: space-around;
   display: inline-flex;
   flex-direction: row;
-  letter-spacing: 7px;
+  letter-spacing: 3px;
   padding: 5px 15px;
   list-style-type: none;
   // margin-right: 100px;
   width: 15%;
+  font-family: Montserrat;
   font-size: 0.8rem;
 
   }
@@ -89,20 +91,23 @@ nav {
 
 .my_info{
   flex-direction: column;
-  // justify-content: center;
   text-align: center;
-  // margin-top: 13rem;
-
-  // height: 500px;
   margin-right: -300px;
   font-family: sans-serif;
-  letter-spacing: 5px;
+  // letter-spacing: 5px;
   color: $black;
   font-size: 0.9rem;
+
+  p{
+    font-family: Inconsolata;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
 
 }
 
 .my_info h1{
+  font-family: Montserrat;
   margin-top: 150px;
   font-size: 50px;
   letter-spacing: 15px;
@@ -124,6 +129,7 @@ a:active{
   margin-right: -300px;
   padding-bottom: 70px;
   margin-top: 3rem;
+  font-family: Montserrat;
 
     a:hover {
       background-color: $greyTrans;
@@ -219,14 +225,13 @@ blockquote {
 .intro{
   margin-top: 150px;
   padding-top: 50vh;
-  // padding-right: 35%;
   padding-left: 10%;
   width: 50%;
 
   color: $black;
   font-size: 1.1rem;
-  font-family: sans-serif;
-  letter-spacing: 5px;
+  line-height: 150%;
+  // letter-spacing: 5px;
     a {
       text-decoration: underline;
     }
@@ -273,7 +278,7 @@ blockquote {
 }
 
 .languages h2{
-  font-family: sans-serif;
+  font-family: Montserrat;
   color: $medGrey;
   text-align: center;
   letter-spacing: 5px;
@@ -296,8 +301,7 @@ blockquote {
 //   background-color: #808080;
 // }
 .skills h2{
-  font-family: sans-serif;
-  // color: #6ed3cf;
+  font-family: Montserrat;
   color: $redTrans;
   text-align: center;
   overflow: hidden;
@@ -341,7 +345,8 @@ blockquote {
   flex-direction: column;
   margin: 5vh 5vw 0vh 5vw;
   // justify-content: center;
-  h2 {
+  h1 {
+    font-family: Montserrat;
     color: $medGrey;
   }
 }
